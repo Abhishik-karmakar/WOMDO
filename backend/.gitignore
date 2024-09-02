@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+*-lock.json
+*-lock.yaml
+
+# testing
+coverage
+
+# builds
+build*
+dist*
+
+# misc
+.scannerwork
+*.sh
+.DS_Store
+.vs
+.vscode
+*/**/*.log
+*/**/log/*
+
+# secrets
+*.config
+.env
+*.env
+.env*
+*/**/credentials/*
+
+# Whitelisting
+# !*/**/.env.*.example
+!*/**/*.example
+# !/package*.json
+*/**/log/.keep
+!*/**/credentials/.keep

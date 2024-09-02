@@ -1,0 +1,105 @@
+@import "../styles/index.scss";
+@import '~bootstrap/scss/bootstrap';
+@import "../../public/theme/_var.scss";
+
+html {
+    font-size: 62.5%;
+    position: relative;
+
+}
+
+body {
+    font-family: $basefont;
+    background-color: $bodybg;
+    overflow-x: clip;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a,
+span {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img,
+iframe,
+canvas,
+video,
+svg {
+    max-width: 100%;
+}
+
+.container {
+    padding-inline: 1.5rem;
+    max-width: 93rem;
+}
+
+.letter_by_letter {
+    display: block;
+
+    >div {
+        display: inline-block;
+    }
+}
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
+
+.go2072408551 {
+    background-color: $darkclr !important;
+    backdrop-filter: blur(1rem);
+    color: $white !important;
+    font-size: 1.6rem;
+
+
+    @media (max-width: 399px) {
+        font-size: 1.4rem;
+    }
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}

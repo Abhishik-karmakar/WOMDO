@@ -1,0 +1,61 @@
+@import "../../../public/theme/_var.scss";
+
+.auth_layout {
+    // padding-left: 32rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    .container {
+        max-width: 140rem;
+    }
+
+    .auth_header {
+        padding: 0.75rem 0;
+
+        @media (max-width: 991px) {
+            background-color: $headerbg;
+            margin-bottom: 2rem;
+            position: sticky;
+            top: 0;
+            z-index: $header;
+        }
+
+        .auth_header_in {
+            display: flex;
+            align-items: center;
+
+            .auth_header_logo {
+                font-size: 2rem;
+                color: $darkclr;
+            }
+
+            .connect_btn {
+                @media (max-width: 399px) {
+                    padding: 0;
+                    width: 10rem;
+                    height: 3.8rem;
+                    border-radius: 1.8rem;
+                    font-size: 1.4rem;
+                }
+            }
+
+        }
+    }
+
+    .auth_in {
+        // min-height: calc(100dvh - 6.5rem);
+        min-height: 100dvh;
+        transition: 200ms ease-in-out;
+        padding: 3.2rem 3.2rem 3.2rem 35.2rem;
+        padding-top: 0 !important;
+
+        @media (max-width: 1199px) {
+            padding: 0 2rem 2rem 30rem;
+        }
+
+        @media (max-width: 991px) {
+            padding: 0 0 2rem 0;
+        }
+    }
+}

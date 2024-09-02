@@ -1,0 +1,234 @@
+@import '../../../../public/theme/_var.scss';
+
+.invite_modal {
+    .modal-dialog {
+        max-width: 70rem;
+    }
+
+    .invite_in {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 767px) {
+            flex-wrap: wrap;
+        }
+
+        .invite_content {
+            width: 100%;
+
+            @media (min-width: 768px) {
+                padding-left: 2rem;
+            }
+
+            h2 {
+                font-size: 2.4rem;
+                line-height: 1.4;
+                margin-bottom: 2rem;
+
+                @media (max-width: 767px) {
+                    text-align: center;
+                }
+            }
+
+            form {
+                label {
+                    font-size: 1.4rem;
+                    display: block;
+                }
+
+                .input {
+                    display: flex;
+                    align-items: center;
+                    z-index: 5;
+                    position: relative;
+
+                    @media (max-width: 499px) {
+                        flex-wrap: wrap;
+                    }
+
+                    >* {
+                        width: 100%;
+
+                        @media (max-width: 499px) {
+                            width: 100%;
+                        }
+                    }
+
+                    .select__control {
+                        cursor: pointer;
+                        height: 5rem;
+                        border: 2px solid $darkclr;
+                        box-shadow: none;
+                        // border-radius: 0 2rem 2rem 0;
+                        background-color: transparent;
+
+                        @media (max-width: 499px) {
+                            border-radius: 2rem;
+                        }
+
+                        .select__value-container {
+                            font-size: 1.6rem;
+
+                            .select__input-container {
+                                font-size: inherit;
+                            }
+                        }
+
+                        .select__indicators {
+                            .select__indicator-separator {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .select__menu {
+                        background-color: $baseclr;
+
+                        &-notice {
+                            font-size: 1.6rem;
+                            color: $darkclr;
+                        }
+
+                        .select__menu-list {
+                            &::-webkit-scrollbar {
+                                width: 0.8rem;
+                                height: 0.8rem;
+                                border-radius: 4rem;
+                                background-color: rgba($darkclr, 0.4);
+                            }
+
+                            &::-webkit-scrollbar-thumb {
+                                border-radius: 4rem;
+                                width: 0.8rem;
+                                height: 0.8rem;
+                                background-color: $darkclr;
+                            }
+
+                            .select__option {
+                                cursor: pointer;
+
+                                &:not(:last-child) {
+                                    margin-bottom: 0.1rem;
+                                }
+
+                                &.select__option--is-focused {
+                                    background-color: transparent;
+                                }
+
+                                &:hover,
+                                &.select__option--is-selected {
+                                    background-color: $bodybg;
+                                    color: $darkclr;
+                                }
+                            }
+                        }
+                    }
+
+                    .token_option {
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.6rem;
+
+                        img {
+                            width: 2.4rem;
+                            flex-shrink: 0;
+                            height: 2.4rem;
+                            border-radius: 50%;
+                            margin-right: 0.8rem;
+                        }
+                    }
+
+                    .amount_input {
+                        height: 5rem;
+                        outline: none;
+                        padding-inline: 1.6rem;
+                        border-radius: 2rem 0 0 2rem;
+                        background-color: transparent;
+                        border: 2px solid $darkclr;
+                        color: $darkclr;
+                        font-size: 1.6rem;
+
+                        @media (min-width: 500px) {
+                            border-right: none;
+                        }
+
+                        @media (max-width: 499px) {
+                            margin-bottom: 1.4rem;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+
+                .options {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin-top: 0.8rem;
+
+                    button {
+                        width: 4.6rem;
+                        text-align: center;
+                        border: 2px solid transparent;
+                        background-color: $cardbg;
+                        height: 2.8rem;
+                        border-radius: 5rem;
+                        font-size: 1.4rem;
+
+                        &:not(:last-child) {
+                            margin-right: 0.4rem;
+                        }
+
+                        &:hover,
+                        &.active {
+                            background: linear-gradient(180deg, $baseclr, $baseclr ) padding-box, linear-gradient(180deg,
+                                    rgba(186, 53, 0, 1) 0%,
+                                    rgba(255, 216, 122, 1) 100%) border-box;
+                        }
+                    }
+                }
+
+                .donate_btn {
+                    margin: 2rem 0 1rem;
+                }
+
+                .donate_more {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+
+                    button {
+                        padding: 0;
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+
+                        svg {
+                            width: 2rem;
+                            height: auto;
+
+                            path {
+                                fill: $baseclr;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .invite_img {
+            flex-shrink: 0;
+            width: 24rem;
+            margin-left: auto;
+            height: 24rem;
+
+            @media (max-width: 767px) {
+                margin-inline: auto;
+            }
+
+            @media (max-width: 499px) {
+                height: 18rem;
+                width: 18rem;
+            }
+        }
+    }
+}

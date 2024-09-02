@@ -1,0 +1,25 @@
+{
+  "name": "womdo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^1.1.1",
+    "@chainlink/functions-toolkit": "^0.2.8",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "@openzeppelin/contracts": "^5.0.2",
+    "big-number": "^2.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.4",
+    "mocha": "^10.4.0"
+  },
+  "keywords": [],
+  "description": ""
+}

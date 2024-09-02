@@ -1,0 +1,251 @@
+and what blockchain can do along with
+digital tokens is to unify that
+infrastructure and give us a a really
+spectacular uplift in settlement times
+efficiency and
+speed I'm Nigel Dobson I'm the banking
+services leader at A&Z and I am in
+charge of Enterprise payments and also
+the Innovation for payments and payment
+services a
+zed
+I think one of the biggest insights
+we've had at A&Z along our journey with
+blockchain has been the application from
+thinking about payments firstly so PVP
+to what's known as DVP and so delivery
+versus payment really focusing on
+transactions rather than payments and
+the reason we came to that conclusion
+was because Payment Systems in most
+countries including Australia are very
+well developed and high high performance
+real time and really wasn't a problem to
+be solved there but when we looked at
+Financial Market infrastructure we
+observed that asset markets and
+settlement infrastructure were separate
+infrastructures and what blockchain can
+do along with digital tokens is to unify
+that infrastructure and give us a a
+really spectacular uplift in settlement
+times efficiency and
+[Music]
+speed so az's digital asset strategies
+really centered around Financial Market
+infrastructure transformation with a
+very keen eye on unifying asset
+transactions and payment and settlement
+transactions on chain so we went about
+uh working with our institutional
+customers understanding what their needs
+were understanding what what appetite
+they had to experiment with digital
+assets so the first thing we did was to
+Mint an Australian dollar stable coin
+onchain and perhaps controversially at
+the time it was on a public
+permissionless chain ethereum and that
+got a lot of attention around the world
+because it showed a little bit of
+courage and it showed that we were
+prepared to work outside the traditional
+bounds of private chains uh but it also
+meant that we were dealing with the
+standards that were emerging within the
+blockchain community uh particularly the
+ethereum token standards which we
+thought were really important also a
+very vibrant developer Community was
+situated around those um layer one uh
+chains as well so having spoken to our
+customers we minted an Australian dollar
+stable coin one of our key and perhaps
+oldest customers 100- year old customer
+who's quite Innovative uh asked us to
+Min an Australian dollar token for them
+which they used on an exchange to buy a
+digital asset and from there we
+progressed through a number of different
+live transactions including with cbdcs
+in Australia uh We've tokenized carbon
+uh and so we've always got an eye on
+finding assets which our customers feel
+would be valuable to tokenize and then
+initiate uh transactions with our stable
+coin to prove that we could really truly
+uh deliver Atomic settlement uh which is
+instantaneous and simultaneous exchange
+of assets on chain and compared to what
+we see today in most asset markets which
+is exchange and settlement with t plus2
+we were doing it in t plus 0 or in 10
+minutes so for us that was a real
+[Music]
+Revelation so the asset classes we're
+very focused on uh is nature-based
+credits nature-based assets in general
+are a growing asset class um they're
+going to be increasingly in demand and
+many of our customers want to invest in
+them buy them and use them for
+offsetting purposes as well so the other
+really important thing about
+nature-based assets is that they're not
+very well served by existing Financial
+Market infrastructure unlike equities or
+other Securities and so we think that
+that is a really fertile space for us to
+work with our customers so that's why
+we've tokenized carbon we've tokenized
+um biodiversity credit so we actually
+trying to help our customers with um
+making markets work more efficiently but
+also uh aligning really strongly with
+our sustainable Finance strategy as
+[Music]
+well I think the aha moment the light
+bulb moment if you like was when we saw
+and proved that we could actually
+achieve Atomic settlement between two
+Assets Now we tokenized Australian
+dollars and used that to uh settle a
+transaction on Exchange but it wasn't
+until we had tokenized our carbon credit
+inventory and then subsequently used our
+stali do stable coin to settle a
+transaction automically instantaneously
+that we revealed that it was true it
+could be done and the implications for
+asset Market settlement asset Market
+security and speed and cost uh were
+proven and that was really where we got
+very excited about the future of
+blockchain
+technology
+I think there's a lot of ambition around
+tokenized assets I think a lot of
+institutional investors and bankers
+understand the opportunity um what I
+think is holding us back at two things
+the first thing is regulation and
+Regulatory certainty uh depending on the
+jurisdiction uh you're in there will be
+different types of thoughts and thinking
+and even momentum around regulation of
+digital assets uh and uh and of course
+crypto assets as well I think the other
+thing is that there a very strong demand
+side but the supply side is is not there
+yet so there isn't the supply of
+tokenized you know widely tokenized uh
+digital assets that our customers want
+to own um now certainly the crypto world
+has demonstrated that it can that
+business model can work with the with
+the really radical operating model
+transformation but what we need is more
+customers with uh demands on tokenized
+assets and that's why we're starting
+with nature-based assets because that's
+a an open field
+that's very important to a lot of our
+customers and it's something we can do
+quite easily at the
+[Music]
+moment well I think there are a number
+of challenges for institutions looking
+to adopt blockchain technology and
+digital Assets in general and one is
+access how do I access these markets and
+the other one is fragmented liquidity
+these islands of liquidity that Sergey
+talks about um often and I think uh
+phrases it well that you know without
+interoperability liquidity is always
+going to remain fragmented and so when
+we participated recently in a in a a set
+of research experiments um including
+Swift and chain link and the ccip the
+the interoperability protocol that chain
+link has developed that revealed that we
+not only could use existing Market
+infrastructure with swift to access
+those digital asset markets but then we
+could also join them up using the
+interoperability protocol and that
+revealed a a whole new series of um
+opportunities that we thought we would
+love to be part of and also we'd like to
+talk to our clients
+[Music]
+about so at AZ we took a View Early that
+we wanted to be blockchain agnostic we
+were also quite focused on the public
+permission list space um because it's
+already existing in production uh we had
+a view that we wanted to have a low a
+lowcost infrastructure engagement with
+um digital assets and so using exist
+public chains seem to to be make
+commercial sense so we B together a
+number of um service providers to sort
+of fill out our digital asset ecosystem
+but internally um A&Z has built a
+digital asset portal which allows our
+customers to send instructions uh
+regarding digital assets they want to
+buy or sell we've also delivered a uh
+tokenization engine which allows us to
+tokenize many many assets taking
+credentials off physical assets or
+virtual assets to create tokens that
+they want to um buy and sell we've also
+spent quite a bit of time developing
+smart contracts as well including uh
+Marketplace contracts so we can
+facilitate exchange of assets on in an
+AZ environment and then finally we've
+integrated apis as well so most recently
+we integrated a foreign exchange API so
+we could do cross currency uh token
+swaps between Australian dollars and New
+Zealand dollars and then also cross
+chains uh which was also exciting using
+the ccip uh protocol as well so cross
+currency cross chain buying a uh
+tokenized credit was the recent
+transaction where we really saw
+everything the whole orchestra playing
+at once if you
+[Music]
+like well quite simply I think
+blockchains and digital assets are the
+future of Finance really for for many
+many asset classes um yes the regulation
+needs to evolve and mature and certainly
+uh there needs to be critical mass of
+both buyers and sellers and lenders and
+borrowers but and as uh more Banks like
+A&Z get involved with the services I
+described around tokenization and smart
+contract provision wallet infrastructure
+now if that's coming from a trusted
+counterparty like a bank like A&Z our
+customers going to be much more inclined
+to reveal to themselves the benefit of
+fast settlement times very low
+transaction costs it's going to be
+gradual then sudden uh and I think
+that's the evolution now that gradu may
+take longer than we hope or wish but I
+do think there will be a Tipping Point
+where momentum in the asset markets uh
+that are digitized and tokenized will
+show that the the transformation has
+occurred and and also I think that in
+interoperability being threaded through
+that all those blockchains um really
+will be one of the deciding factors for
+that Tipping
+Point

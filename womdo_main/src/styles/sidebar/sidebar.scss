@@ -1,0 +1,191 @@
+@import "../../../public/theme/_var.scss";
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 1rem 0 5rem 1rem rgba($darkclr, 0.1);
+    z-index: $sidebar;
+    background-color: $headerbg;
+    width: 100%;
+    max-width: 32rem;
+    transition: 200ms ease-in-out;
+
+    @media (max-width: 1199px) {
+        max-width: 28rem;
+    }
+
+    .sidebar_logo {
+        flex-shrink: 0;
+        font-size: 3.2rem;
+        padding: 0 2rem;
+        color: $darkclr;
+        height: 8rem;
+        position: relative;
+
+        span {
+            position: absolute;
+            transition: 200ms ease-in-out;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            &:first-child {
+                opacity: 1;
+            }
+
+            &:last-child {
+                opacity: 0;
+            }
+        }
+    }
+
+    ul {
+        margin: 2rem 0;
+        padding: 0 2rem;
+
+        @media (max-width: 499px) {
+            margin: 0rem;
+        }
+
+        li {
+            &:not(:last-child) {
+                margin-bottom: 0.8rem;
+            }
+
+            a {
+                padding: 1.4rem 2.4rem;
+                font-size: 1.8rem;
+                color: $darkclr;
+                transition: 200ms ease-in-out;
+                display: flex;
+                align-items: center;
+                transition: 200ms ease-in-out;
+                border-radius: 0.8rem;
+
+                svg {
+                    width: 2rem;
+                    height: 2rem;
+                    flex-shrink: 0;
+                    margin-right: 0.8rem;
+
+                    path {
+                        transition: 200ms ease-in-out;
+                        fill: $darkclr;
+                    }
+                }
+
+                span {
+                    transition: opacity 200ms ease-in-out;
+                }
+
+                &:hover,
+                &.active {
+                    color: $white;
+                    background-color: $darkclr;
+
+                    svg {
+                        path {
+                            fill: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sidebar_footer {
+        transition: 200ms ease-in-out;
+        margin-top: auto;
+        padding: 0 0 4rem;
+
+        @media (max-width: 991px) {
+            display: none;
+        }
+
+        button {
+            width: 4rem;
+            height: 4rem;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+
+            svg {
+                path {
+                    fill: $darkclr;
+                }
+            }
+
+        }
+    }
+
+    @media (min-width: 992px) {
+
+        &:not(.locked) {
+            &:not(:hover) {
+                max-width: 10rem;
+
+                +.auth_in {
+                    padding: 3.2rem 3.2rem 3.2rem 13.2rem;
+                }
+
+                .sidebar_logo {
+                    span {
+                        &:first-child {
+                            opacity: 0;
+                        }
+
+                        &:last-child {
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                ul {
+                    li {
+                        a {
+                            padding: 1.4rem 2rem;
+
+                            // padding: 0.8rem;
+                            span {
+                                opacity: 0;
+                                // width: 0;
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                }
+
+                .sidebar_footer {
+                    opacity: 0;
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        &:not(.locked) {
+            &:not(:hover) {
+                +.auth_in {
+                    padding: 2rem 2rem 2rem 12rem;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        overflow: auto;
+
+        &:not(.active) {
+            transform: translateX(-100%);
+        }
+    }
+}

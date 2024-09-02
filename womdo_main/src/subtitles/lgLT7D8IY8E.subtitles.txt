@@ -1,0 +1,51 @@
+Many entrepreneurs and managing directors in medium size businesses
+are looking for the ideal business managing software, to support their business needs and
+to help them to realize their full business potential.
+Utilizing the supporting software like for example Odoo is becoming more and more crucial and important in the digital age.
+This video explores why Odoo is the perfect business managing software choice, especially for medium size companies.
+If this topic is interesting for you, watch the following video.
+Hello, my name is Tobias Hammeke and I’m the CEO and founder of Odoo Business Solutions (OBS Solutions).
+Today I want to share the top six features of Odoo that makes it the ideal business managing software choice available on the market.
+Perhaps you know this kind of structure when you look at your company’s software-landscape.
+Software does not interface well with each other and don’t provide a 360 degree view
+of crucial customer Information.
+Without an integrated software solution even, the simplest processes can be very time consuming and even frustrating and prompt to error.
+With Odoo almost all of your business needs can be managed in one system by the more than 25000 modules that are available on the market.
+There are ERP functions available for Sale Inventory, manufacturing, project-management accounting with many extensions.
+Odoo is also supporting all sales channels like for examples Point of Sales, CRM or multi-ecommerce
+and can support a wide variety of additional business functions in other key business areas
+for example like in marketing or HR.
+You can even use Odoo to function like you own version of amazon by using its web portal which is of course integrated in all the other applications.
+by using its web portal which is of course integrated in all the other applications.
+In Odoo everything is multi, multi-companies, multi-warehouses, multi-websites even multi-ecommerce
+accounting localizations, multi-lingual, multi-currency even with an automated update of the exchange rate.
+In addition, the consolidation module makes sure you are always on top of the multiple needs of your businesses, all in one place.
+In Odoo you can customize almost anything, the backend of Odoo is an impressively powerful development platform
+but remember the more you customize your implementation of Odoo the more complex and costly the system gets.
+Therefore, we at OBS try to use the standards of Odoo as much as possible with its wide range of integration possibilities and existing modules.
+Still its always good to know that almost everything is possible in Odoo.
+Odoo’s user interface is simply stunning. Let me show you how we can contact the entire process
+from sales opportunity to customer invoice within 25 seconds.
+A customer comes in through a sales pipeline, then turns into an opportunity
+a quote is generated for a customer using a quotation template which then gets automatically send to the customer via email.
+Next the customer can accept the quote and can confirm the order online.
+All of the order fulfillment activities are then kicked off automatically,
+an invoice is created send to the customer and the sales cycle is complete.
+With the document model your business can operate 100% paperless.
+Using specified actions within Odoo you ultimately have the power for automating any business process
+and bring your business fully into the digital age.
+With the IOT box you can enhance your business operations by connecting all of your IOT devices end machines with Odoo.
+With the artificial intelligence Odoo can predict your next steps for example based on your usage-history, using machine learning or OCR recognition.
+With Odoo we cover a wide range of business functions
+They are not traditional license cost but the Odoo enterprise contract with standard upgrades and bug fixing included.
+Server management is comparably inexpensive
+For small companies the implementation is even possible out of the box without big development
+and with our special OBS focus on Odoo standard and existing tools rather than development the price performance ratio is really remarkable.
+Why partner with us here at Odoo business solutions?
+Well there are many arguments as you can see. In 2019 in example we have received Odoo’s best partner award in Europe.
+To learn more about us and everything we offer head over to odoo-bs.com make an appointment for free Odoo demo today.
+We would be very happy to show you all the opportunities available within Odoo and how you can Odoo to optimize your business processes.
+For further information visit our website browse the other videos and blogs that are available.
+You find customer success stories our industry solutions implementation concepts working principles and much more.
+Of course, you can also contact one of our offices directly and we would be very happy to answer any of your questions.
+I hope you enjoyed that short video about the Odoo features thank you very much for your time and have a good day.

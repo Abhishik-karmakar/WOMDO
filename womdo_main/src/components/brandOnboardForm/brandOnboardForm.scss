@@ -1,0 +1,46 @@
+@import "../../../public//theme/_var.scss";
+
+.form-container {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba($cardbg , 0.3);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    .form-label {
+        font-size: 1.5rem;
+    }
+    input, select{
+      font-size: 1.5rem;
+      padding: 5px 10px;
+      background: aliceblue;
+  }
+    .invalid-feedback{
+        font-size: 1rem;
+    }
+  }
+  
+  .form-control:focus {
+    border-color: $darkclr;
+    box-shadow: 0 0 5px $darkclr;
+  }
+  
+  .form-button {
+    display: flex;
+    justify-content: center;
+  
+    .btn {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+  
+      @media (min-width: 768px) {
+        width: auto;
+        padding: 10px 50px;
+      }
+    }
+  }
+  

@@ -1,0 +1,21 @@
+@import "../../public/theme/_var.scss";
+
+.homepage {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+
+    >section {
+        padding: 8rem 0 4rem;
+
+        @media (max-width: 991px) {
+            padding: 8rem 0;
+        }
+
+        @media (max-width: 575px) {
+            padding: 7rem 0;
+        }
+
+    }
+}

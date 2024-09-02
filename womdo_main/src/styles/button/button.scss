@@ -1,0 +1,44 @@
+@import "../../../public/theme/_var.scss";
+
+.custom_btn {
+    height: 5rem;
+    padding-inline: 3.2rem;
+    border-radius: 2rem;
+    outline: none;
+    background-color: $darkclr;
+    border: 2px solid $darkclr;
+    color: $white;
+    font-size: 1.6rem;
+    position: relative;
+    z-index: 1;
+    overflow: clip;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 300ms ease-in-out;
+
+    &::before {
+        width: 0;
+        z-index: -1;
+        height: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        content: "";
+        background-color: $darkclr;
+        transition: 300ms ease-in-out;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+        background-color: transparent;
+        color: $darkclr;
+        // &::before {
+        //     width: 20rem;
+        //     height: 20rem;
+        //     border-radius: inherit;
+        // }
+    }
+}
