@@ -42,12 +42,6 @@ ANTHROPIC_API_KEY=<insert_claude_API_key>
 
 We welcome contributions to WOMDO! Feel free to submit bug reports, feature requests, or pull requests to help improve the platform.
 
-## Authors
-
-- Sandeep Jaiswal - Frontend Developer
-- Shubham Sharma - Smart Contract Developer
-- Manav Notnani - Backend Developer
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
